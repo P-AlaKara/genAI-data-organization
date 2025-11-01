@@ -8,7 +8,7 @@ This project is part of Datacamp's Associate AI Enginner for Developer's course.
 
 ## Quick overview
 - The notebook loads [data/transcriptions.csv](data/transcriptions.csv) into a pandas DataFrame (`df`) and calls the OpenAI chat completion API to:
-  1. Extract patient age and recommended treatment from medical transcripts.
+  1. Extract patienrt agoe and recommended treatment from medical transcripts.
   2. Map the recommended treatment to an ICD-10 or ICD-10-PCS code.
   3. NOTE: We use the openAI API and specifically the function calling ability to extract details and consequently map the ICD code.
 - Results are combined into a single final dataframe.
